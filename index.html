@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pied Peper. Compress your files!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="header__nav nav"965*88*44>
+            <a href="#" class="nav__logo logo">
+                <span class="logo__icon">🎺</span>
+                <span class="logo__text">Pied Peper</span>
+            </a>
+
+            <ul class="nav__menu menu">
+                <li class="menu__item">
+                    <a href="#hero" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#catalog" class="menu__link">Возможности</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#advantages" class="menu__link">Преимущества</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#contacts" class="menu__link">Контакты</a>
+                </li>
+            </ul>
+
+            <button class="nav__button button button--primary" type="button">
+                Войти
+            </button>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="hero" id="hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Сжимай данные.<br>
+                        <span class="hero__title--accent">Без потерь.</span>
+                    </h1>
+                    <p class="hero__description">
+                        Мы не просто сжимаем файлы — мы сжимаем квадратики,
+                        прямоугольники и ваши представления о компрессии.
+                        Алгоритм, который не теряет ни одного байта.
+                    </p>
+                    <div class="hero__actions">
+                        <button class="button button--primary" type="button">
+                            Начать сжатие
+                        </button>
+                        <button class="button button--ghost" type="button">
+                            Смотреть демо
+                        </button>
+                    </div>
+                </div>
+
+                <div class="hero__visual">
+                    <div class="hero__compression">
+                        <div class="compression">
+                            <div class="compression__row">
+                                <div class="compression__square"></div>
+                                <div class="compression__square"></div>
+                                <div class="compression__square"></div>
+                            </div>
+                            <div class="compression__arrow">→</div>
+                            <div class="compression__row compression__row--compressed">
+                                <div class="compression__square compression__square--small"></div>
+                                <div class="compression__square compression__square--small"></div>
+                                <div class="compression__square compression__square--small"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="catalog" id="catalog">
+            <div class="catalog__container">
+                <h2 class="catalog__title section-title">Возможности платформы</h2>
+                <p class="catalog__subtitle section-subtitle">
+                    Шесть инструментов, которые изменят ваше представление о хранении данных
+                </p>
+
+                <div class="catalog__grid cards">
+                    <!-- Карточка 1 -->
+                    <article class="cards__item card">
+                        <div class="card__image card__image--compress"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Сжатие без потерь</h3>
+                            <p class="card__description">
+                                Алгоритм среднего выравнивания сжимает данные так,
+                                что ни один байт не теряется.
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--storage"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Облачное хранилище</h3>
+                            <p class="card__description">
+                                Храните файлы любого размера. Мы сожмём их
+                                в 10 раз быстрее конкурентов.
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--transfer"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Быстрая передача</h3>
+                            <p class="card__description">
+                                Передавайте сжатые данные по сети за секунды,
+                                а не за минуты.
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--security"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Шифрование</h3>
+                            <p class="card__description">
+                                Сквозное шифрование AES-256. Ваши данные
+                                защищены на всех этапах.
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--api"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">API для разработчиков</h3>
+                            <p class="card__description">
+                                Простой REST API. Интегрируйте сжатие
+                                в любое приложение за 5 минут.
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--analytics"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Аналитика</h3>
+                            <p class="card__description">
+                                Отслеживайте, сколько места вы сэкономили
+                                и как быстро работают ваши файлы.
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--storage"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Удаление файлов</h3>
+                            <p class="card__description">
+                                Удалим ваши личные данные в 10 раз быстре конкурентов
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+
+                    <article class="cards__item card">
+                        <div class="card__image card__image--storage"></div>
+                        <div class="card__body">
+                            <h3 class="card__title">Потяфкаем вам в дискордике. Тяф~</h3>
+                            <p class="card__description">
+                                Тяф-тяф~
+                            </p>
+                            <button class="card__button button button--small" type="button">
+                                Подробнее
+                            </button>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="advantages" id="advantages">
+            <div class="advantages__container">
+                <h2 class="advantages__title section-title">Почему мы</h2>
+                <p class="advantages__subtitle section-subtitle">
+                    «Pieg Peper» — это не просто стартап. Это образ жизни.
+                </p>
+
+                <div class="advantages__grid">
+                    <div class="advantages__item advantage">
+                        <div class="advantage__icon">⚡</div>
+                        <h3 class="advantage__title">Скорость</h3>
+                        <p class="advantage__text">
+                            Сжимаем быстрее, чем Ричард Хендрикс произносит
+                            слово «алгоритм».
+                        </p>
+                    </div>
+
+                    <div class="advantages__item advantage">
+                        <div class="advantage__icon">🔒</div>
+                        <h3 class="advantage__title">Надёжность</h3>
+                        <p class="advantage__text">
+                            Данные не теряются. Даже если Джаред придёт
+                            и всё сломает.
+                        </p>
+                    </div>
+
+                    <div class="advantage__item advantage">
+                        <div class="advantage__icon">📈</div>
+                        <h3 class="advantage__title">Масштабируемость</h3>
+                        <p class="advantage__text">
+                            От гаража до дата-центра. Растём вместе
+                            с вашими данными.
+                        </p>
+                    </div>
+
+                    <div class="advantage__item advantage">
+                        <div class="advantage__icon">🎯</div>
+                        <h3 class="advantage__title">Точность</h3>
+                        <p class="advantage__text">
+                            Ни одного потерянного бита. Мы проверяли.
+                            Дважды.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer" id="contacts">
+        <div class="footer__container">
+            <div class="footer__column">
+                <h3 class="footer__title">Пегаево-дудочник</h3>
+                <p class="footer__text">
+                    Сжимаем данные с 2014 года. Официальный сайт
+                    вымышленного стартапа из сериала «Кремниевая долина».
+                </p>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Контакты</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">dsolomko20@gmail.com</li>
+                    <li class="footer__item">+7 (951) 517-59-30</li>
+                    <li class="footer__item">Ростов-на-Дону, Колифорнийская Федерация</li>
+                </ul>
+            </div>
+
+            <div class="footer__column">
+                <h3 class="footer__title">Соцсети</h3>
+                <ul class="footer__list">
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">Telegram</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">LinkdIn</a>
+                    </li>
+                    <li class="footer__item">
+                        <a href="#" class="footer__link">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">
+                © 2026 «Pied Peper». Все права защищены. Это пародия.
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
